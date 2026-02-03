@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+*.js.map
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# iOS
+ios/Vilo.xcworkspace/xcuserdata/
+ios/Vilo.xcodeproj/xcuserdata/
+ios/Vilo.xcodeproj/project.xcworkspace/xcuserdata/
+ios/DerivedData/
+ios/Pods/
+*.xcuserstate
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.apk
+*.aab
+
+# Server
+server/node_modules/
+server/dist/
+server/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test
+coverage/
+
+# Misc
+*.tmp
+*.temp
+Thumbs.db
